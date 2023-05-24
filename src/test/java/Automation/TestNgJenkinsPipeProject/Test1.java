@@ -4,13 +4,13 @@ import org.testng.annotations.Test;
 
 public class Test1 {
 	
-	@Test
+	@Test(groups = "Sanity")
 	public void smokeTest1() {
-		System.out.println("smokeTest1");
+		System.out.println("sanityTest");
 	}
-	@Test
+	@Test(groups = "Smoke")
 	public void smokeTest2() {
-		System.out.println("smokeTest2");
+		System.out.println("smokeTest");
 	}
 
 }
