@@ -16,5 +16,4 @@ public class Test2 {
 	public void sanityTest2() {
 		System.out.println("sanityTest");
 	}
-
 }
