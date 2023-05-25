@@ -13,7 +13,11 @@ public class Test2 {
 		System.out.println("Functional");
 	}
 	@Test(groups = "Sanity")
-	public void sanityTest2() {
+	public void sanityTest() {
 		System.out.println("sanityTest");
+	}
+	@Test(groups = "Performance")
+	public void performanceTest() {
+		System.out.println("Performance");
 	}
 }
