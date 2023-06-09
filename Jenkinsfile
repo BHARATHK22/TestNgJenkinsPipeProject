@@ -12,6 +12,11 @@ pipeline {
         	echo "Welcome to learning"
             }
         }
+        stage('Git') {
+            steps {
+        	git 'https://github.com/BHARATHK22/TestNgJenkinsPipeProject.git'
+            }
+        }
         stage('Clean') {
             steps {
         	sh "$Job"
