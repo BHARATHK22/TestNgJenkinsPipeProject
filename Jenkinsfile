@@ -9,7 +9,7 @@ pipeline {
     
     	stage('MVN exec:java') {
             steps {
-        	sh "$job"
+        	sh "$RunAllTest"
             }
         }
           
