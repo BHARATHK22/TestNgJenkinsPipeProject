@@ -10,7 +10,8 @@ public class Test2 {
 	}
 	@Test(groups = "Functional")
 	public void functionalTest2() {
-		System.out.println("Functional");
+		System.out.println("Functional ");
+		System.out.println("mvn clean test -Dfilename=MainTest -Dgroups=Sanity");
 	}
 	@Test(groups = "Sanity")
 	public void sanityTest() {
