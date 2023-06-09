@@ -14,13 +14,18 @@ pipeline {
         }
         stage('Git') {
             steps {
-        	git 'https://github.com/BHARATHK22/TestNgJenkinsPipeProject.git'
+        	git url:'https://github.com/BHARATHK22/TestNgJenkinsPipeProject.git'
             }
         }
         stage('Clean') {
             steps {
-        	sh "$Job"
+        	sh "mvn clean test"
             }
-        } 
+        }
+        stage('Job') {
+            steps {
+        	sh "$job"
+            }
+        }
      }   	
 }
