@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-09T16:46:49 IST" name="Suite" finished-at="2023-06-09T16:46:49 IST" duration-ms="119">
+  <suite started-at="2023-06-09T17:44:14 IST" name="Suite" finished-at="2023-06-09T17:44:14 IST" duration-ms="112">
     <groups>
       <group name="Functional">
-        <method signature="Test2.functionalTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" name="functionalTest2" class="Automation.TestNgJenkinsPipeProject.Test2"/>
+        <method signature="Test2.functionalTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" name="functionalTest2" class="Automation.TestNgJenkinsPipeProject.Test2"/>
       </group> <!-- Functional -->
       <group name="Sanity">
-        <method signature="Test1.smokeTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@12aba8be]" name="smokeTest1" class="Automation.TestNgJenkinsPipeProject.Test1"/>
-        <method signature="Test2.sanityTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" name="sanityTest" class="Automation.TestNgJenkinsPipeProject.Test2"/>
+        <method signature="Test1.smokeTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@3cebbb30]" name="smokeTest1" class="Automation.TestNgJenkinsPipeProject.Test1"/>
+        <method signature="Test2.sanityTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" name="sanityTest" class="Automation.TestNgJenkinsPipeProject.Test2"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="Test2.regressionTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" name="regressionTest1" class="Automation.TestNgJenkinsPipeProject.Test2"/>
+        <method signature="Test2.regressionTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" name="regressionTest1" class="Automation.TestNgJenkinsPipeProject.Test2"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="Test1.smokeTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@12aba8be]" name="smokeTest2" class="Automation.TestNgJenkinsPipeProject.Test1"/>
+        <method signature="Test1.smokeTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@3cebbb30]" name="smokeTest2" class="Automation.TestNgJenkinsPipeProject.Test1"/>
       </group> <!-- Smoke -->
       <group name="Performance">
-        <method signature="Test2.performanceTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" name="performanceTest" class="Automation.TestNgJenkinsPipeProject.Test2"/>
+        <method signature="Test2.performanceTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" name="performanceTest" class="Automation.TestNgJenkinsPipeProject.Test2"/>
       </group> <!-- Performance -->
     </groups>
-    <test started-at="2023-06-09T16:46:49 IST" name="Test" finished-at="2023-06-09T16:46:49 IST" duration-ms="119">
+    <test started-at="2023-06-09T17:44:14 IST" name="Test" finished-at="2023-06-09T17:44:14 IST" duration-ms="112">
       <class name="Automation.TestNgJenkinsPipeProject.Test1">
-        <test-method signature="smokeTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@12aba8be]" started-at="2023-06-09T16:46:49 IST" name="smokeTest1" finished-at="2023-06-09T16:46:49 IST" duration-ms="10" status="PASS">
+        <test-method signature="smokeTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@3cebbb30]" started-at="2023-06-09T17:44:14 IST" name="smokeTest1" finished-at="2023-06-09T17:44:14 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTest1 -->
-        <test-method signature="smokeTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@12aba8be]" started-at="2023-06-09T16:46:49 IST" name="smokeTest2" finished-at="2023-06-09T16:46:49 IST" duration-ms="1" status="PASS">
+        <test-method signature="smokeTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test1@3cebbb30]" started-at="2023-06-09T17:44:14 IST" name="smokeTest2" finished-at="2023-06-09T17:44:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTest2 -->
       </class> <!-- Automation.TestNgJenkinsPipeProject.Test1 -->
       <class name="Automation.TestNgJenkinsPipeProject.Test2">
-        <test-method signature="functionalTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" started-at="2023-06-09T16:46:49 IST" name="functionalTest2" finished-at="2023-06-09T16:46:49 IST" duration-ms="1" status="PASS">
+        <test-method signature="functionalTest2()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" started-at="2023-06-09T17:44:14 IST" name="functionalTest2" finished-at="2023-06-09T17:44:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- functionalTest2 -->
-        <test-method signature="performanceTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" started-at="2023-06-09T16:46:49 IST" name="performanceTest" finished-at="2023-06-09T16:46:49 IST" duration-ms="1" status="PASS">
+        <test-method signature="performanceTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" started-at="2023-06-09T17:44:14 IST" name="performanceTest" finished-at="2023-06-09T17:44:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performanceTest -->
-        <test-method signature="regressionTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" started-at="2023-06-09T16:46:49 IST" name="regressionTest1" finished-at="2023-06-09T16:46:49 IST" duration-ms="1" status="PASS">
+        <test-method signature="regressionTest1()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" started-at="2023-06-09T17:44:14 IST" name="regressionTest1" finished-at="2023-06-09T17:44:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regressionTest1 -->
-        <test-method signature="sanityTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@2dc54ad4]" started-at="2023-06-09T16:46:49 IST" name="sanityTest" finished-at="2023-06-09T16:46:49 IST" duration-ms="1" status="PASS">
+        <test-method signature="sanityTest()[pri:0, instance:Automation.TestNgJenkinsPipeProject.Test2@1151e434]" started-at="2023-06-09T17:44:14 IST" name="sanityTest" finished-at="2023-06-09T17:44:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sanityTest -->
