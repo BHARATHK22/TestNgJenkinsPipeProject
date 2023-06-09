@@ -7,9 +7,9 @@ pipeline {
     }
     stages {
     
-    	stage('MVN exec:java') {
+    	stage('Clean') {
             steps {
-        	sh "$RunAllTest"
+        	sh "$Job"
             }
         }
           
