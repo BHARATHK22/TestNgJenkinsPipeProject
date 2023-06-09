@@ -7,20 +7,15 @@ pipeline {
     }
     stages {
     
-    	stage('Clean') {
+    	stage('Print') {
+            steps {
+        	echo "Welcome to learning"
+            }
+        }
+        stage('Clean') {
             steps {
         	sh "$Job"
             }
-        }
-          
-     } 
-     post {
-        
-        failure {
-
-       		}
-    	success {
-    				
-                }	
-    }  	
+        } 
+     }   	
 }
